@@ -13,7 +13,7 @@ counter = 1
 prnt = ''
 
 # a loop to add to each of the letters
-while counter <= 25 :
+while counter <= 26 :
 	prnt = prnt + letter + letter.lower()
 	letter = chr(ord(letter)+1)
 	counter = counter + 1
